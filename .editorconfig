@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# CS8622: Il supporto dei valori Null dei tipi riferimento nel tipo di parametro non corrisponde al delegato di destinazione, probabilmente a causa degli attributi del supporto dei valori Null.
+dotnet_diagnostic.CS8622.severity = suggestion
+
+# CS8618: Il campo non nullable deve contenere un valore non Null all'uscita dal costruttore. Provare a dichiararlo come nullable.
+dotnet_diagnostic.CS8618.severity = suggestion
